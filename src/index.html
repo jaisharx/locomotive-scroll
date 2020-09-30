@@ -5,10 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Locomotive Scroll Example</title>
 
-        <link rel="stylesheet" href="style.scss">
+        <link rel="stylesheet" href="scss/style.scss" />
         <script src="script.js" defer></script>
     </head>
     <body>
-        
+        <main data-scroll-container>
+            <section data-scroll-section>
+                <h1>Hi, there! I'm Jai-Sharma.</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consequatur esse
+                    reiciendis neque excepturi alias atque quam. Perspiciatis minus deserunt saepe
+                </p>
+            </section>
+            <section class="section2" id="my-section" data-scroll-section>
+                <h1 data-scroll data-scroll-speed="1">Hi, again!</h1>
+                <p data-scroll data-scroll-speed="2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consequatur esse
+                    reiciendis neque excepturi alias atque quam. Perspiciatis minus deserunt saepe
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic eaque
+                    reprehenderit laborum ut tempore in. Quae ea veritatis assumenda, perspiciatis
+                    nostrum ut, in quasi sunt perferendis quo architecto, magni eligendi. Voluptas
+                    beatae perspiciatis voluptatum necessitatibus saepe aut libero deleniti magnam.
+                </p>
+            </section>
+            <section data-scroll-section>
+                <h1 data-scroll data-scroll-speed="1">Bye 👋</h1>
+                <p data-scroll data-scroll-speed="2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consequatur esse
+                    reiciendis neque excepturi alias atque quam. Perspiciatis minus deserunt saepe
+                </p>
+            </section>
+        </main>
     </body>
 </html>

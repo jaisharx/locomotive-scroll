@@ -1,0 +1,44 @@
+@import "base";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+section {
+    height: 100vh;
+    padding: 10em;
+
+    h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    a {
+        color: white;
+        font-weight: bold;
+    }
+
+    &:first-child {
+        color: white;
+        background-color: rgb(12, 140, 214);
+    }
+
+    &:last-child {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.877);
+    }
+}
