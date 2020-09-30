@@ -1,0 +1,29 @@
+{
+  "name": "locomotive-scroll-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url .",
+    "clean": "shx rm -rf .cache dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaisharx/locomotive-scroll.git"
+  },
+  "keywords": [],
+  "author": "jai-sharma <sendtojsharma@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaisharx/locomotive-scroll/issues"
+  },
+  "homepage": "https://github.com/jaisharx/locomotive-scroll#readme",
+  "devDependencies": {
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "parcel": "^1.12.4",
+    "shx": "^0.3.2"
+  },
+  "dependencies": {
+    "locomotive-scroll": "^3.6.1"
+  }
+}

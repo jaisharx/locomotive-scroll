@@ -1,0 +1,6 @@
+# js packages
+node_modules
+
+# parcel build files
+.cache
+dist
