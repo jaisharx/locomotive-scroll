@@ -19,8 +19,9 @@
   },
   "homepage": "https://github.com/jaisharx/locomotive-scroll#readme",
   "devDependencies": {
-    "parcel-plugin-nuke-dist": "^1.0.1",
     "parcel": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.26.11",
     "shx": "^0.3.2"
   },
   "dependencies": {
